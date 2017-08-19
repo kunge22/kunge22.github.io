@@ -11,14 +11,14 @@
       top:45%;
 
       right:10px;
-      z-index: 10;
+      z-index: 15;
     }
 
     .position3
     {
      position: fixed;
      left:50%;
-     z-index: 10;
+     z-index: 15;
     }
 
     body
@@ -31,7 +31,7 @@
     position: absolute;
     top:5%;
     left: 10%;
-    z-index: -1;
+    z-index: 1;
    }
 
    .position155
@@ -47,7 +47,7 @@
      position: absolute;
      top:4.9%;
      left:15%;
-
+     z-index: 1;
    }
 
     .div1
@@ -60,7 +60,7 @@
       position: absolute;
       top: 14.5%;
       left: 55%;
-
+      z-index: -1;
     }
 
     .div2
@@ -77,9 +77,25 @@
       font-family: impact,sans-serif;
       font-size: 24.5px;
       line-height: 200%;
+      color: white;
+    }
 
-      color: red;   /* IDEA: change */
 
+
+    @keyframes movesfor15 {
+      from {background-color: white;}
+      to {background-color: red;}
+    }
+
+    .animaiton15{
+
+      background-color: white;
+      animation-name: movesfor15;
+      animation-duration: 4s;
+      animation-delay: 2s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      animation-timing-function: ease-in-out;
     }
 
 
@@ -91,6 +107,7 @@
        top:-25%;
        left: -25%;
        z-index: -1;
+
       }
 
       .position155
@@ -120,7 +137,6 @@
         width: 200px;
         height:740px;
         line-height: 250%;
-
         position: absolute;
         top: 100%;
         left: 10%;
@@ -133,7 +149,7 @@
         height:750px;
         position: absolute;
         top: 99%;
-        left: 50%;
+        left: 45%;
       }
 
 
@@ -158,20 +174,27 @@
 }
 /*end of mobile style*/
 
-
+    a{
+      text-decoration: inherit;
+    }
 
     </style>
   </head>
-  <body>
-    <a class="position3"  href="../index.html"><img src="../img/arrowup.png" alt="home" height=25px></a>
-    <a class="position2"  href="level1a.html"><img src="../img/arrowright.png" alt="15" height=25px></a>
+
+
+  <body class="animaiton15">
+
+
+
 
 <img src="assets/images/1.png" alt="1" height="1000px" class="position151">
 <img src="assets/images/5.png" alt="5" height="1000px" class="position155">
-<img src="assets/images/variation copy.png" alt="variation" height="1000px" class="position15v">
+<a href="../index.html"><img  src="assets/images/variation copy.png" alt="variation" height="1000px" class="position15v"></a>
 
-<!-- IDEA: start of 15tags -->
 
+
+
+<!-- IDEA: 15 gradient imgs
 <div class="div1">
 <img src="assets/images/gradient copy.png" alt="tag1" height="35px">
 <img src="assets/images/gradient copy.png" alt="tag2" height="35px">
@@ -189,19 +212,20 @@
 <img src="assets/images/gradient copy.png" alt="tag14" height="35px">
 <img src="assets/images/gradient copy.png" alt="tag15" height="35px">
 </div>
+-->
 
 
 <!-- IDEA: starts of the links -->
 
 
 <div class="div2">
-<a class="a1">LEVEL1a</a>
-<a class="a1">LEVEL1b</a>
-<a class="a1">LEVEL1c</a>
-<a class="a1">LEVEL2a</a>
-<a class="a1">LEVEL2b</a>
-<a class="a1">LEVEL2c</a>
-<a class="a1">LEVEL3a</a>
+<a href="level1a.html" class="a1">LEVEL1a</a>
+<a href="level1b.html" class="a1">LEVEL1b</a>
+<a href="level1c.html" class="a1">LEVEL1c</a>
+<a href="level2a.html" class="a1">LEVEL2a</a>
+<a href="level2b.html" class="a1">LEVEL2b</a>
+<a href="level2c.html" class="a1">LEVEL2c</a>
+<a href="level3a.html" class="a1">LEVEL3a</a>
 <a class="a1">LEVEL3b</a>
 <a class="a1">LEVEL3c</a>
 <a class="a1">LEVEL4a</a>
