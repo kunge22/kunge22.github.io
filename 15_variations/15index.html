@@ -5,21 +5,7 @@
     <title>15 VARIATIONS</title>
     <style media="all">
 
-    .position2
-    {
-      position: fixed;
-      top:45%;
 
-      right:10px;
-      z-index: 15;
-    }
-
-    .position3
-    {
-     position: fixed;
-     left:50%;
-     z-index: 15;
-    }
 
     body
     {
@@ -49,26 +35,36 @@
      z-index: 1;
    }
 
-    .div1
+
+
+   .div2hover
+   {
+     position: absolute;
+     top: 58px;
+     right:300px;
+     display: inline-block;
+   }
+
+   .div2hovertitlestyle
+   {
+     font-family: impact,sans-serif;
+     font-size: 50px;
+     letter-spacing: 2px;
+     color: white;
+   }
+
+    .div2content
     {
-
-      width: 200px;
-      height:740px;
-      line-height: 250%;
-
-      position: absolute;
-      top: 14.5%;
-      left: 55%;
-      z-index: -1;
-    }
-
-    .div2
-    {
+      display: none;
       width: 100px;
       height:750px;
-      position: absolute;
-      top: 13.8%;
-      left: 65%;
+      position: relative;
+      top: -20px;
+    }
+
+    .div2hover:hover .div2content
+    {
+      display: block;
     }
 
     .a1
@@ -132,28 +128,35 @@
         transform:scale(0.7);
       }
 
-      .div1
+
+      .div2hover
       {
-
-        width: 200px;
-        height:740px;
-        line-height: 250%;
         position: absolute;
-        top: 100%;
-        left: 10%;
-
+        top: 85%;
+        left:38%;
+        display: inline-block;
       }
 
-      .div2
+      .div2hovertitlestyle
       {
-        width: 100px;
-        height:750px;
-        position: absolute;
-        top: 105%;
-        left: 43%;
-        z-index: 9;
+        font-size: 30px;
+        letter-spacing: 2px;
+        color: white;
       }
 
+       .div2content
+       {
+         display: none;
+         width: 100px;
+         height:750px;
+         position: relative;
+         top: -20px;
+       }
+
+       .div2hover:hover .div2content
+       {
+         display: block;
+       }
 
       .a1
       {
@@ -162,15 +165,6 @@
         line-height: 252%;
       }
 
-      .position2
-      {
-        z-index: 10;
-      }
-
-      .position3
-      {
-       z-index: 10;
-      }
 
 
 }
@@ -200,8 +194,13 @@
 
 <!-- starts of the links ---------------------------------------------->
 
+<div class="div2hover">
 
-<div class="div2">
+
+
+<h1 class="div2hovertitlestyle">LEVELS</h1>
+
+<div class="div2content">
 <a href="level1a.html" class="a1">LEVEL1a</a>
 <a href="level1b.html" class="a1">LEVEL1b</a>
 <a href="level1c.html" class="a1">LEVEL1c</a>
@@ -219,7 +218,7 @@
 <a href="level5c.html" class="a1">LEVEL5c</a>
 </div>
 
-
+</div>
 
 
 
