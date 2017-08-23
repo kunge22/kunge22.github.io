@@ -25,6 +25,7 @@
     position: absolute;
     top:7%;
     left: 15%;
+    z-index: 1;
 
    }
 
@@ -51,6 +52,7 @@
      top: 78px;
      right:300px;
      display: inline-block;
+
    }
 
 
@@ -62,6 +64,7 @@
       height:750px;
       position: relative;
       top: 10px;
+
     }
 
 
@@ -69,11 +72,11 @@
 
     .div2:hover .div2content
     {
-      display: block;
+      display:block;
     }
 
 
-/* FIXME:   how to apply on div3hover
+/* FIXME:   how to apply animations on div3hover
    @keyframes bgcolor {
 
       from {background-color: red;}
@@ -91,15 +94,20 @@
 
 
 
+      .div3
+      {
 
+        width: 0px;
+        height: 0px;
+        background-color: black;
+
+        transition: width 4.5s, height 4.5s;
+      }
 
       .div3:hover
       {
-        width:2500px;
+        width:3000px;
         height:2000px;
-        background-color: black;
-        margin: 0px;
-        padding: 0px;
       }
 
 
