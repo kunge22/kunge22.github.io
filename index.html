@@ -84,34 +84,80 @@
 
     @media only screen and (max-width: 600px) {
 
-      .lettereposition
-      {
-        position: absolute;
-        top: 243%;
-        left: 31%;
-        margin-bottom: 10px;
-      }
+          body
+          {
+            background-color: maroon;
+            display: flex;
+            align-items: center;
 
-      body
-      {
-      background-color: dimgrey;
-      }
+          }
 
-      img
-      {
-        opacity:1;
-      }
+          img
+          {
+            opacity:1.0;
+            cursor: help;
+            transform: scale(0.7);
+
+          }
 
 
-      .mark {
-        position: fixed;
-        top: 93%;
-        left:76%;
-        font-size: 10px;
-        z-index: -1;
-      }
+          .this
+          {
+            position: absolute;
+            top: 5px;
+            left:5px;
+
+          }
+
+         .is
+         {
+           position: absolute;
+           top:80vh;
+           left: 5px;
 
 
+         }
+
+         .kung
+         {
+           position: absolute;
+           top:120vh;
+           left: 5px;
+         }
+
+        .e
+        {
+          position: absolute;
+          top:80vh;
+          left: -40px;
+        }
+
+         .dot
+         {
+           color: red;
+           font-size: 88px;
+           opacity:0;
+           animation-name: dotshining;
+           animation-duration: 1s;
+           animation-iteration-count: infinite;
+           position: absolute;
+           top:50vh;
+           right: 40px;
+
+         }
+
+          @keyframes dotshining {
+            0% {opacity:0.2; }
+            25% {opacity:0.4; }
+            50% {opacity:0.6; }
+            75% {opacity:0.8; }
+            100% {opacity:1.0; }
+          }
+
+         .tag
+         {
+           display: none;
+         }
 
   }
 
