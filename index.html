@@ -2,54 +2,83 @@
 <html>
   <head>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
-
-
     <title>KUNG.E</title>
-
-
-
     <style type="text/css" media="screen, print">
 
-    a {
-      TEXT-DECORATION: none}
+    a {TEXT-DECORATION: none}
 
-    p {
+    .tag
+    {
       color:white;
       font-family: century gothic, sans-serif;
       letter-spacing:5px;
+      position: fixed;
+      right:20px;
+      bottom:20px;
     }
 
-
-    h1 {
-      color:white;
-      font-family: century gothic, sans-serif;
-    }
-
-    img {
-      opacity:0.5;
-      cursor: help;
-    }
-
-
-    img:hover {
-      opacity:1.0;
-      transform:scale(1.05);
-    }
 
     body {
       background-color: black;
     }
 
-    .mark {
-      position: fixed;
-      top: 94.5%;
-      left:83%;
+
+    img
+    {
+      opacity:0.5;
+      cursor: help;
+      margin-left:5vw;
+
     }
 
-    .lettereposition
+    img:hover {
+      opacity:1.0;
+      transform:scale(1.05);
+
+    }
+
+    .this
     {
       position: absolute;
+      top: 5vh;
+      left:5vw;
     }
+
+   .is
+   {
+     position: absolute;
+     top: 35vh;
+     left: 5vw;
+   }
+
+   .kung
+   {
+     position: absolute;
+     top: 65vh;
+     left: 5vw;
+   }
+
+
+
+   .dot
+   {
+     color: red;
+     font-size: 88px;
+     opacity:0;
+     animation-name: dotshining;
+     animation-duration: 1s;
+     animation-iteration-count: infinite;
+   }
+
+    @keyframes dotshining {
+      0% {opacity:0.2; }
+      25% {opacity:0.4; }
+      50% {opacity:0.6; }
+      75% {opacity:0.8; }
+      100% {opacity:1.0; }
+    }
+
+
 
 /*start of mobile style*/
 
@@ -82,11 +111,11 @@
         z-index: -1;
       }
 
-/*end of mobile style*/
+
 
   }
 
-
+/*end of mobile style*/
 
 
     </style>
@@ -101,33 +130,35 @@
 
   <body>
 
-    <br>
-    <img src="img/1.png" alt="t">
-    <img src="img/2.png" alt="h">
-    <img src="img/3.png" alt="i">
-    <img src="img/4.png" alt="s ">
+    <div class="this">
+    <img src="assets/img/1.png" alt="t">
+    <img src="assets/img/2.png" alt="h">
+    <img src="assets/img/3.png" alt="i">
+    <img src="assets/img/4.png" alt="s ">
 
-    <br><br><br><br>
-
-    <img src="img/3.png" alt="i">
-    <img src="img/4.png" alt="s">
-
-    <br><br><br><br>
-
-    <img src="img/5.png" alt="k">
-    <img src="img/6.png" alt="u">
-    <img src="img/7.png" alt="n">
-    <img src="img/8.png" alt="g">
-    <a href="15_variations/15index.html"><font color=red size=10>.</font></a>
-    <a href="exercise/exercise1.html"><img src="img/9.png" class="lettereposition" alt="e"></a>
-
-    <br>
+    </div>
 
 
-<div class="mark">
+    <div class="is">
+    <img src="assets/img/3.png" alt="i">
+    <img src="assets/img/4.png" alt="s">
+    </div>
 
 
-<p>Made by GONG,YI</p>
+    <div class="kung">
+    <img src="assets/img/5.png" alt="k">
+    <img src="assets/img/6.png" alt="u">
+    <img src="assets/img/7.png" alt="n">
+    <img src="assets/img/8.png" alt="g">
+    <a class="dot" href="15_variations/15index.html">.</a>
+    <a class="e" href="exercise/exercise1.html"><img src="assets/img/9.png" class="lettereposition" alt="e"></a>
+    </div>
+
+
+
+
+<div class="tag">
+Made by GONG,YI
 </div>
 
 
