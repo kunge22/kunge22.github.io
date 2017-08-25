@@ -6,6 +6,33 @@
     <link rel="stylesheet" type="text/css" href="css/navbutton.css">
     <style media="screen">
 
+    .bigcontainer
+    {
+
+      width:400px;
+      height: 400px;
+      font-family: century gothic, sans-serif;
+      font-size: 15px;
+      perspective: 7000px;;
+      transform-style: preserve-3d;
+      animation-name: spinning;
+      animation-duration:55s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      animation-direction: normal;
+      position: absolute;
+      top: 300px;
+      left: 600px;
+    }
+
+    @keyframes spinning {
+      from {transform:rotateY(0deg) }
+      to   {transform:rotateY(360deg)}
+    }
+
+
+
+
     .spinningunit1
     {
       width: 300px;
@@ -126,29 +153,8 @@
     }
 
 
-   .bigcontainer
-   {
 
-     width:500px;
-     height: 500px;
-     font-family: century gothic, sans-serif;
-     font-size: 15px;
-     perspective: inherit;
-     transform-style: preserve-3d;
-     animation-name: spinning;
-     animation-duration:55s;
-     animation-timing-function: linear;
-     animation-iteration-count: infinite;
-     animation-direction: normal;
-     position: absolute;
-     top: 300px;
-     left: 600px;
-   }
 
-   @keyframes spinning {
-     from {transform:rotateY(0deg) }
-     to   {transform:rotateY(360deg)}
-   }
 
     </style>
   </head>
