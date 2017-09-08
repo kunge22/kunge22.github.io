@@ -11,5 +11,54 @@
 /* Start here */
 
 body {
-background-color: red;
+background-color: rgba(116, 147, 255, 0.61);
+}
+
+img
+{
+  max-width: 40%;
+  display: block;
+  margin: auto;
+}
+
+
+.container_base
+{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;            /* REVIEW: align top center bottom */
+  justify-content: space-around;      /* REVIEW: space about left and right */
+  margin: 30px;
+}
+
+.container_top
+{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin: 30px;
+}
+
+
+
+
+.col1of3
+{
+  flex:0 0 33.333%;
+}
+
+.col1of4
+{
+  flex:0 0 25%;
+}
+
+.col1of5
+{
+  flex:0 0 20%;
+}
+
+.col2of3
+{
+  flex:0 0 66.666%;
 }
