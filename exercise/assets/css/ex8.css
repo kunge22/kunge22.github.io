@@ -23,12 +23,17 @@ img
   margin: auto;
 }
 
+img:hover
+{
+  transform: scale(1.1);
+  transition: 0.15s linear;
+}
 
 .container_base
 {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;            /* REVIEW: align top center bottom */
+  align-items: center;                /* REVIEW: align top center bottom */
   justify-content: space-around;      /* REVIEW: space about left and right */
   margin: 20px;
 
