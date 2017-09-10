@@ -26,7 +26,7 @@ img
 img:hover
 {
   transform: scale(1.1);
-  transition: 0.15s linear;
+  transition: 0.2s ease-in;
 }
 
 .container_base
