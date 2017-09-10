@@ -11,12 +11,14 @@
 /* Start here */
 
 body {
-background-color: rgba(116, 147, 255, 0.61);
+background-color: rgba(7, 60, 89, 1);
 }
+
+
 
 img
 {
-  max-width: 40%;
+  max-width: 45%;
   display: block;
   margin: auto;
 }
@@ -26,9 +28,10 @@ img
 {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;            /* REVIEW: align top center bottom */
+  align-items: center;            /* REVIEW: align top center bottom */
   justify-content: space-around;      /* REVIEW: space about left and right */
-  margin: 30px;
+  margin: 20px;
+
 }
 
 .container_top
@@ -37,7 +40,8 @@ img
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-around;
-  margin: 30px;
+  margin-bottom: 50px;
+
 }
 
 
