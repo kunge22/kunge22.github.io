@@ -70,13 +70,6 @@ img:hover {
 
 
 
-.container_base {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;                /* REVIEW: align top center bottom */
-  justify-content: space-around;      /* REVIEW: space about left and right */
-  margin: 20px;
-}
 
 
 .container_top {
@@ -88,6 +81,13 @@ img:hover {
 }
 
 
+.container_base {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;;                /* REVIEW: align top center bottom */
+  justify-content: space-around;      /* REVIEW: space about left and right */
+  margin: 20px;
+}
 
 
 .col1of3
