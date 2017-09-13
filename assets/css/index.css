@@ -95,13 +95,15 @@ img {
 
 .col1of4
 {
-  flex:0 0 100%;
+  flex:0 0 50%;
 }
 
 
 .col1of5
 {
-  flex:0 0 30%;
+  flex:0 0 25%;
+  margin-top:5%;
+  margin-bottom:5%;
 }
 
 
