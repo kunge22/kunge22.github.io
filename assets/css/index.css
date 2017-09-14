@@ -37,6 +37,25 @@ img:hover
 }
 
 
+@keyframes darkletter {
+
+  0%  {  opacity: 0;}
+  100% { opacity: 0.8;}
+
+}
+
+
+.animation
+{
+
+  animation-name: darkletter;
+  animation-duration: 5.5s;
+  animation-iteration-count: 1;
+  transition: ease-in-out;
+
+}
+
+
 
 .container
 {
