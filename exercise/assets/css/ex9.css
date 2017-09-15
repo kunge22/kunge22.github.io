@@ -12,62 +12,26 @@
 
 
 
-
-body {
-background-color: rgba(7, 60, 89, 1);
-}
-
-
-
-img {
-  max-width: 45%;
-  display: block;
-  margin: auto;
-  transition: 0.15s ease-in;
-}
-
-img:hover {
-  transform: scale(1.1);
-}
-
-
-
-
-
-.container_top {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: space-around;
-  margin-bottom: 50px;
-}
-
-
-.container_base {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;;                /* REVIEW: align top center bottom */
-  justify-content: space-around;      /* REVIEW: space about left and right */
-  margin: 20px;
-}
-
-
-.col1of3
+.position1
 {
-  flex:0 0 33.333%;
+position: fixed;
+top:45%;
+left: 10px;
+z-index: 100;
 }
 
-.col1of4
+.position2
 {
-  flex:0 0 25%;
+  position: fixed;
+  top:45%;
+  right:10px;
+  z-index: 100;
 }
 
-.col1of5
+.position3
 {
-  flex:0 0 20%;
-}
-
-.col2of3
-{
-  flex:0 0 66.666%;
+ position: fixed;
+ top: 10px;
+ left:50%;
+ z-index: 100;
 }
