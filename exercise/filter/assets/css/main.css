@@ -114,5 +114,5 @@ cursor: pointer;
 }
 
 .show{
-  display: block;
+  display: flex;
 }

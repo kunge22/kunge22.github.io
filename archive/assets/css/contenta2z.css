@@ -21,23 +21,25 @@ img{
 .navbar
 {
   width: 200px;
-  height:100vh;
+  height: 100vh;
   background-color: #eef0ee;
-  position: fixed;
   color: #2f312f;
   border: 1px solid #d8dad8;
-  z-index: 11;
-  position: absolute;
-  top:-1px;
+  z-index: 1;
+  position: fixed;
+  top:0px;
+  left:0px;
 }
 
 .title
 {
+
   font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
+  font-size: 18.5px;
   font-weight: bolder;
   color: #3c3e3c;
-  margin: 20px;
+  margin: 18px;
+
 }
 
 .container
