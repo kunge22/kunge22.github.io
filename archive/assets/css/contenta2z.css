@@ -13,30 +13,8 @@ body{
 }
 
 img{
-  max-width: 19px;
+  max-width: 50%;
 
-}
-
-
-h3{
-  margin:0px;
-}
-
-
-/* Start here */
-.header
-{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  font-family: 'Open Sans', sans-serif;
-  font-size:13.5px;
-  justify-content: center;
-  align-content: center;
-  margin-left: 200px;
-  height:30px;
-  background-color: #f0f0f0;
 }
 
 
@@ -55,7 +33,6 @@ h3{
 
 .title
 {
-
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   font-weight: bolder;
@@ -63,104 +40,40 @@ h3{
   margin: 20px;
 }
 
-
-
-
-.name{
-flex:0 0 33.5%;
-}
-.amount{
-flex:0 0 31.6%;
-}
-.date{
-flex:0 0 30.5%;
-}
-
-
-
-
 .container
 {
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-start;
   align-items: center;
-  justify-content: center;
   font-family: 'Open Sans', sans-serif;
   font-size:13.5px;
-  background-color: #f5f5f5;
   position: absolute;
-  top: 30px;
   left:200px;
 }
 
-
-.item{
-  display: flex;
-  flex-wrap: wrap;
-  flex:0 0 100%;
-  background-color: #f5f5f5;
-}
-
-.icon1
+.col1of5
 {
-  padding-left: 6px;
-  flex:0 0 30px;
+  flex:0 0 20%;
 }
 
-.icon2
+.content
 {
-  padding-left: 7px;
-  flex:0 0 30px;
+ padding:15px;
 }
 
-.alpha
-{
-  flex:0 0 31%;
-}
 
-.number
-{
-  color: #85858b;
-  flex:0 0 31%;
-}
 
-.time
-{
 
-  color: #85858b;
-  flex:0 0 31%;
-}
 
-.icon11
-{
-  padding-left: 6px;
-  background-color: #ffffff;
-  flex:0 0 30px;
-}
 
-.icon22
-{
-  background-color: #ffffff;
-  padding-left: 7px;
-  flex:0 0 30px;
-}
 
-.alph
-{
-  background-color: #ffffff;
-  flex:0 0 31%;
-}
 
-.numbe
-{
- background-color: #ffffff;
- color: #85858b;
- flex:0 0 31%;
-}
 
-.tim
-{
-  background-color: #ffffff;
-  color: #85858b;
-  flex:0 0 31%;
-}
+
+
+
+
+
+
+/* Start here */
