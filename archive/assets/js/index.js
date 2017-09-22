@@ -11,6 +11,10 @@ $('.titlea2z').click(function(event) {
   $('.titlethumbnail').addClass('transprentback')
 });
 
+$('.lightbox').click(function(event){
+  $(this).toggleClass('active');
+});
+
 
 
 
