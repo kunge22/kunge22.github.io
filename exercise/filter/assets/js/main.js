@@ -55,7 +55,7 @@ $('.nav_thumbnail').click(function(event){
   $('.item').removeClass('full');
   $('.item').addClass('thumbnail');
   $('.item').removeClass('col1of4');
-  $('.item').addClass('thumbnail');
+
 
 });
 
@@ -63,12 +63,11 @@ $('.nav_full').click(function(event){
   $('.item').removeClass('thumbnail');
   $('.item').addClass('full');
   $('.item').removeClass('col1of4');
-  $('.item').addClass('full');
+
 });
 
 $('.nav_default').click(function(event){
   $('.item').removeClass('thumbnail');
-  $('.item').addClass('default');
   $('.item').removeClass('full');
   $('.item').addClass('default');
 });
