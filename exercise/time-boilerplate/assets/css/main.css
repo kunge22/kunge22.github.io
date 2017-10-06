@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+
+/* Start here */
+
+
+.time {
+  font-size: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: arial;
+  margin-bottom: 80px;
+}
+
+.image_swap {
+  margin: auto;
+  width: 600px;
+}
+
+.image_swap img {
+  max-width: 100%;
+
+}
+
+.message_swap {
+  margin: auto;
+  width: 600px;
+  font-family: courier;
+  font-size: 18px;
+  margin-bottom: 80px;
+}
+
+.happy{
+  font-size: 50px;
+  font-family: century gothic;
+  text-transform: uppercase;
+  margin-left: 400px;
+  color: rgb(60, 214, 46);
+  font-weight: bolder;
+  display: none;
+  transition: 2s 2s;
+}

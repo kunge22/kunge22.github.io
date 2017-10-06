@@ -1,0 +1,16 @@
+body.am .image_swap .sunrise, body.am .message_swap .morning{
+  display: block;
+}
+
+body.am .image_swap .eclipse, body.am .message_swap .evening{
+  display:none;
+}
+
+
+body.pm .image_swap .sunrise, body.pm .message_swap .morning{
+  display: none;
+}
+
+body.pm .image_swap .eclipse, body.pm .message_swap .evening{
+  display:block;
+}
