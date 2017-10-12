@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+
+/* Start here */
+
+
+
+
+.dotimage
+{
+  max-width: 15px;
+  z-index: 2;
+}
+
+.reddot
+{ display: flex;
+  align-items: center;
+  font-family: century gothic;
+  font-size: 10px;
+  align-items: center;
+}
+
+.zodiac
+{
+  position: absolute;
+  top:40.5vh;
+  left:17vw;
+}
+
+.cooke
+{
+  position: absolute;
+  top:80vh;
+  left:71.7vw;
+}
+
+.yang
+{
+  position: absolute;
+  top:45.5vh;
+  left:79.5vw;
+}
+
+.wuornos
+{
+  position: absolute;
+  top:48vh;
+  left:27.5vw;
+}
+
+.haarmann
+{
+  position: absolute;
+  top:35.4vh;
+  left:43.5vw;
+}
+
+.jack
+{
+  position: absolute;
+  top:34vh;
+  left:41vw;
+}
