@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+
+body
+{
+  background-color:black;
+}
+
+
+
+
+/*blood label and name of killers*/
+
+.dotimage
+{
+  max-width: 15px;
+  z-index: 2;
+}
+
+.reddot
+{ display: flex;
+  align-items: center;
+  align-content: center;
+  font-family: century gothic;
+  font-size: 10px;
+  font-weight: bold;
+  align-items: center;
+  color: red;
+}
+
+
+/* Map starts */
+
+.map
+{
+  width: 100px;
+  height:100px;
+  position: absolute;
+  top:8%;
+  left:8%;
+}
+
+.mapclass
+{
+  width: 1200px;
+  height: 700px;
+  margin:0px;
+}
+
+
+
+
+/*killers of USA*/
+
+.zodiac
+{
+  position: relative;
+  top:-420%;
+  left:170%;
+}
+
+.dahmer
+{
+  position: relative;
+  top:-480%;
+  left:270%;
+}
+
+.gaskins
+{
+  position: relative;
+  top:-483%;
+  left:290%;
+}
+
+.wuornos
+{
+  position: relative;
+  top:-490%;
+  left:290%;
+}
+
+.lucas
+{
+  position: relative;
+  top:-530%;
+  left:170%;
+}
+
+/*Euro killers*/
+
+.jack
+{
+  position: relative;
+  top:-645%;
+  left:473%;
+}
+
+.haarmann
+{
+  position: relative;
+  top:-665%;
+  left:593%;
+}
+
+/*russia killers*/
+
+.chikatilo
+{
+  position: relative;
+  top:-730%;
+  left:720%;
+}
+
+
+/*china killers*/
+
+.yang
+{
+  position: relative;
+  top:-680%;
+  left:900%;
+}
+
+/*aussie killers*/
+.cooke
+{
+  position: relative;
+  top:-470%;
+  left:970%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*End*/
