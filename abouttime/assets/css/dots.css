@@ -36,6 +36,24 @@
   left:71.7vw;
 }
 
+@media screen and (max-width: 1280px) {
+    .cooke {
+          left:900px;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .cooke {
+          left:800px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .cooke {
+          left:700px;
+    }
+}
+
 .yang
 {
   position: absolute;
@@ -77,4 +95,23 @@
   position: absolute;
   top:31vh;
   left:58vw;
+}
+
+.gaskins
+{
+  position: absolute;
+  top:44.5vh;
+  left:28vw;
+}
+
+.dahmer
+{
+  position: absolute;
+  top:38vh;
+  left:26vw;
+}
+
+.peter
+{
+
 }
