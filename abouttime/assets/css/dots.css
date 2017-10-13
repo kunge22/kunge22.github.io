@@ -33,26 +33,9 @@
 {
   position: absolute;
   top:80vh;
-  left:71.7vw;
+  left:71.5vw;
 }
 
-@media screen and (max-width: 1280px) {
-    .cooke {
-          left:900px;
-    }
-}
-
-@media screen and (max-width: 1180px) {
-    .cooke {
-          left:800px;
-    }
-}
-
-@media screen and (max-width: 1080px) {
-    .cooke {
-          left:700px;
-    }
-}
 
 .yang
 {
@@ -72,14 +55,14 @@
 {
   position: absolute;
   top:35.4vh;
-  left:43.5vw;
+  left:41vw;
 }
 
 .jack
 {
   position: absolute;
   top:34vh;
-  left:41vw;
+  left:39.7vw;
 }
 
 .lucas
