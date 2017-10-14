@@ -2,13 +2,6 @@
   box-sizing: border-box;
 }
 
-body
-{
-  background-color:black;
-}
-
-
-
 
 /*blood label and name of killers*/
 
@@ -30,7 +23,7 @@ body
 }
 
 
-/* Map starts */
+/* Map start */
 
 .map
 {
@@ -47,6 +40,7 @@ body
   height: 700px;
 }
 
+/*Map end*/
 
 
 
@@ -62,29 +56,29 @@ body
 .dahmer
 {
   position: relative;
-  top:-480%;
-  left:270%;
+  top:-470px;
+  left:240px;
 }
 
 .gaskins
 {
   position: relative;
-  top:-483%;
-  left:290%;
+  top:-480px;
+  left:290px;
 }
 
 .wuornos
 {
   position: relative;
-  top:-490%;
-  left:290%;
+  top:-485px;
+  left:293px;
 }
 
 .lucas
 {
   position: relative;
-  top:-525px;
-  left:165px;
+  top:-530px;
+  left:150px;
 }
 
 /*Euro killers*/
@@ -92,15 +86,15 @@ body
 .jack
 {
   position: relative;
-  top:-645%;
-  left:473%;
+  top:-640px;
+  left:475px;
 }
 
 .haarmann
 {
   position: relative;
-  top:-665%;
-  left:593%;
+  top:-665px;
+  left:596px;
 }
 
 /*russia killers*/
@@ -108,8 +102,8 @@ body
 .chikatilo
 {
   position: relative;
-  top:-730%;
-  left:720%;
+  top:-720px;
+  left:696px;
 }
 
 
@@ -118,21 +112,31 @@ body
 .yang
 {
   position: relative;
-  top:-680%;
-  left:900%;
+  top:-660px;
+  left:930px;
 }
 
 /*aussie killers*/
 .cooke
 {
   position: relative;
-  top:-470%;
-  left:970%;
+  top:-470px;
+  left:960px;
 }
 
+.miyazaki
+{
+  position: relative;
+  top:-760px;
+  left:1030px;
+}
 
-
-
+.filho
+{
+  position: relative;
+  top:-570px;
+  left:390px;
+}
 
 
 
