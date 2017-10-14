@@ -81,9 +81,8 @@ flex: 0 0 35%;
 
 .text
 {
-  width:auto;
-  height:30%;
-
+  width: auto;
+  height: 500px;
   font-family: monospace;
   font-size: 15px;
   margin-top: 15px;
