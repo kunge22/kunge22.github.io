@@ -81,13 +81,13 @@ flex: 0 0 35%;
 
 .text
 {
-  width: 400px;
-  height:450px;
+  width:auto;
+  height:30%;
 
   font-family: monospace;
   font-size: 15px;
-  margin-top: 20px;
-  flex:0 0 95%;
+  margin-top: 15px;
+  flex:0 0 90%;
   overflow: scroll;
 }
 
@@ -98,7 +98,7 @@ flex: 0 0 35%;
   font-size: 55px;
   text-align: center;
   flex: 0 0 35%;
-  margin:10px;
+  margin:5px;
 }
 
 
@@ -111,12 +111,18 @@ flex: 0 0 35%;
   font-size: 66px;
   text-align: center;
   flex: 0 0 40%;
-  margin:10px;
+  margin:5px;
 }
 
-
-
-
+/*3lineslong*/
+.title11
+{
+  font-family: Oswald, sans-serif;
+  font-size: 49px;
+  text-align: center;
+  flex: 0 0 40%;
+  margin:5px;
+}
 /*killer page css end*/
 
 

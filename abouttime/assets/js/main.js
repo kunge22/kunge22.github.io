@@ -85,8 +85,8 @@ $('.button').click(function(event) {
 
 
 $('.button').click(function(event) {
-  $('.zodiacpage').removeClass('show');
-  $('.zodiacpage').addClass('hide');
+  $('.wuornospage').removeClass('show');
+  $('.wuornospage').addClass('hide');
 });
 
 
@@ -137,7 +137,10 @@ $('.button').click(function(event) {
   $('.lucaspage').addClass('hide');
 });
 
-
+$('.button').click(function(event) {
+  $('.yangpage').removeClass('show');
+  $('.yangpage').addClass('hide');
+});
 
 
 
