@@ -13,6 +13,7 @@
 
 .reddot
 { display: flex;
+
   align-items: center;
   align-content: center;
   font-family: Oswald, sans-serif;

@@ -22,3 +22,242 @@ body
   font-family: monospace;
   font-size: 22px;
 }
+
+.show
+{
+  display: block;
+}
+
+.hide
+{
+  display: none
+}
+
+
+
+
+/* killer page css */
+
+
+
+.page
+{
+  width: 35vw;
+  height: 90vh;
+  background-color:rgba(255, 255, 255, 0.95);
+  position: fixed;
+  top:4vh;
+  left:32.5vw;
+  border-radius: 10px;
+}
+
+.button img
+{
+  max-width: 20px;
+}
+
+.button
+{
+  position: relative;
+  top: 1px;
+  left:10px;
+}
+
+.button :hover
+{
+  opacity: 0.3;
+}
+
+.content
+{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin:20px;
+
+}
+
+.pic img
+{
+  max-width: 250px;
+}
+
+.pic
+{
+flex: 0 0 35%;
+}
+
+.text
+{
+  width: 400px;
+  height:450px;
+
+  font-family: monospace;
+  font-size: 15px;
+  margin-top: 20px;
+  flex:0 0 95%;
+  overflow: scroll;
+}
+
+/*zodiac*/
+.title12
+{
+  font-family: Oswald, sans-serif;
+  font-size: 55px;
+  text-align: center;
+  flex: 0 0 35%;
+  margin:10px;
+}
+
+.zodiacpage
+{
+  display: none;
+}
+
+/*zodiac*/
+
+
+/*gaskins*/
+.title1
+{
+  font-family: Oswald, sans-serif;
+  font-size: 66px;
+  text-align: center;
+  flex: 0 0 40%;
+  margin:10px;
+}
+
+
+.gaskinspage
+{
+  display: none;
+}
+
+
+/*gaskins*/
+
+/*cooke*/
+
+.cookepage
+{
+  display: none;
+}
+
+
+/*cooke*/
+
+
+/*miyazaki*/
+
+.miyazakipage
+{
+  display: none;
+}
+
+
+/*miyazaki*/
+
+
+/*filho*/
+
+.filhopage
+{
+  display: none;
+}
+
+/*filho*/
+
+/*jack*/
+
+.jackpage
+{
+  display: none;
+}
+
+/*jack*/
+
+
+/*haarmann*/
+.haarmannpage
+{
+  display: none;
+}
+
+.imgsize
+{
+  max-height: 240px;
+}
+
+/*haarmann*/
+
+
+/*chikatilo*/
+.chikatilopage
+{
+  display:none;
+
+}
+
+
+/*chikatilo*/
+
+
+/*dahmer*/
+
+.dahmerpage
+{
+display: none;
+}
+
+
+
+/*dahmer*/
+
+
+/*yang*/
+.yangpage
+{
+display: none;
+}
+
+
+/*yang*/
+
+/*wuornos*/
+
+.wuornospage
+{
+  display:none;
+}
+
+
+
+/*wuornos*/
+
+
+
+/*lucas*/
+
+.lucaspage
+{
+  display: ;
+}
+
+.title11
+{
+  font-family: Oswald, sans-serif;
+  font-size: 49px;
+  text-align: center;
+  flex: 0 0 35%;
+  margin:10px;
+}
+
+/*lucas*/
+
+
+
+
+
+
+/*killer page css end*/
