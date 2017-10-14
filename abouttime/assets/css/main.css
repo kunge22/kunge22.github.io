@@ -23,16 +23,6 @@ body
   font-size: 22px;
 }
 
-.show
-{
-  display: block;
-}
-
-.hide
-{
-  display: none
-}
-
 
 
 
@@ -66,6 +56,7 @@ body
 .button :hover
 {
   opacity: 0.3;
+  cursor: pointer;
 }
 
 .content
@@ -100,7 +91,7 @@ flex: 0 0 35%;
   overflow: scroll;
 }
 
-/*zodiac*/
+/*3lines*/
 .title12
 {
   font-family: Oswald, sans-serif;
@@ -110,15 +101,10 @@ flex: 0 0 35%;
   margin:10px;
 }
 
-.zodiacpage
-{
-  display: none;
-}
-
-/*zodiac*/
 
 
-/*gaskins*/
+
+/*2lines*/
 .title1
 {
   font-family: Oswald, sans-serif;
@@ -129,135 +115,23 @@ flex: 0 0 35%;
 }
 
 
-.gaskinspage
-{
-  display: none;
-}
-
-
-/*gaskins*/
-
-/*cooke*/
-
-.cookepage
-{
-  display: none;
-}
-
-
-/*cooke*/
-
-
-/*miyazaki*/
-
-.miyazakipage
-{
-  display: none;
-}
-
-
-/*miyazaki*/
-
-
-/*filho*/
-
-.filhopage
-{
-  display: none;
-}
-
-/*filho*/
-
-/*jack*/
-
-.jackpage
-{
-  display: none;
-}
-
-/*jack*/
-
-
-/*haarmann*/
-.haarmannpage
-{
-  display: none;
-}
-
-.imgsize
-{
-  max-height: 240px;
-}
-
-/*haarmann*/
-
-
-/*chikatilo*/
-.chikatilopage
-{
-  display:none;
-
-}
-
-
-/*chikatilo*/
-
-
-/*dahmer*/
-
-.dahmerpage
-{
-display: none;
-}
-
-
-
-/*dahmer*/
-
-
-/*yang*/
-.yangpage
-{
-display: none;
-}
-
-
-/*yang*/
-
-/*wuornos*/
-
-.wuornospage
-{
-  display:none;
-}
-
-
-
-/*wuornos*/
-
-
-
-/*lucas*/
-
-.lucaspage
-{
-  display: ;
-}
-
-.title11
-{
-  font-family: Oswald, sans-serif;
-  font-size: 49px;
-  text-align: center;
-  flex: 0 0 35%;
-  margin:10px;
-}
-
-/*lucas*/
-
-
-
-
 
 
 /*killer page css end*/
+
+
+/*show and hide*/
+
+
+.show
+{
+  display: block;
+}
+
+.hide
+{
+  display: none
+}
+
+
+/*show and hide*/

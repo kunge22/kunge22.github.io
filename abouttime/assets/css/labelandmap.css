@@ -22,6 +22,11 @@
 }
 
 
+.reddot :hover
+{
+  cursor: pointer;
+}
+
 /* Map start */
 
 .map
@@ -53,6 +58,11 @@
   display: none;
 }
 
+.zodiac :hover
+{
+ cursor: pointer;
+}
+
 .dahmer
 {
   position: relative;
@@ -60,6 +70,12 @@
   left:200px;
   display: none;
 }
+
+.dahmer :hover
+{
+  cursor: pointer;
+}
+
 
 .gaskins
 {
@@ -69,12 +85,23 @@
   display: none;
 }
 
+.gaskins :hover
+{
+  cursor: pointer;
+}
+
+
 .wuornos
 {
   position: relative;
   top:-370px;
   left:290px;
   display: none;
+}
+
+.wuornos :hover
+{
+  cursor: pointer;
 }
 
 .lucas
@@ -85,7 +112,12 @@
   display: none;
 }
 
-/*Euro killers*/
+.lucas :hover
+{
+  cursor: pointer;
+}
+
+/*england killers*/
 
 .jack
 {
@@ -94,7 +126,12 @@
   top:-470px;
   left:495px;
 }
+.jack :hover
+{
+  cursor: pointer;
+}
 
+/*germany */
 .haarmann
 {
   position: relative;
@@ -102,7 +139,10 @@
   left:596px;
   display: none;
 }
-
+.haarmann :hover
+{
+  cursor: pointer;
+}
 /*Russia killer*/
 
 .chikatilo
@@ -112,7 +152,10 @@
   left:696px;
   display: none;
 }
-
+.chikatilo :hover
+{
+  cursor: pointer;
+}
 
 /*China killer*/
 
@@ -123,7 +166,10 @@
   left:930px;
   display: none;
 }
-
+.yang :hover
+{
+  cursor: pointer;
+}
 /*Aussie killer*/
 .cooke
 {
@@ -132,7 +178,10 @@
   left:960px;
   display: none;
 }
-
+.cooke :hover
+{
+ cursor: pointer;
+}
 /*Japan killer*/
 
 .miyazaki
@@ -141,6 +190,11 @@
   top:-410px;
   left:1030px;
   display: none;
+}
+
+.miyazaki :hover
+{
+  cursor: pointer;
 }
 
 /*Brizil killer*/
@@ -153,7 +207,10 @@
   display: none;
 }
 
-
+.filho :hover
+{
+  cursor: pointer;
+}
 
 
 
