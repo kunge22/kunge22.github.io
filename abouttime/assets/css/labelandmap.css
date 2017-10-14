@@ -27,7 +27,7 @@
 {
   width: 100px;
   height:100px;
-  position: absolute;
+  position: fixed;
   top:8%;
   left:8%;
 }
@@ -49,92 +49,110 @@
   position: relative;
   top:-420px;
   left:165px;
+  display: none;
 }
 
 .dahmer
 {
   position: relative;
-  top:-480px;
-  left:240px;
+  top:-390px;
+  left:200px;
+  display: none;
 }
 
 .gaskins
 {
   position: relative;
-  top:-470px;
-  left:290px;
+  top:-400px;
+  left:300px;
+  display: none;
 }
 
 .wuornos
 {
   position: relative;
-  top:-465px;
-  left:293px;
+  top:-370px;
+  left:290px;
+  display: none;
 }
 
 .lucas
 {
   position: relative;
-  top:-490px;
+  top:-390px;
   left:120px;
+  display: none;
 }
 
 /*Euro killers*/
 
 .jack
 {
+  display: none;
   position: relative;
-  top:-600px;
-  left:475px;
+  top:-470px;
+  left:495px;
 }
 
 .haarmann
 {
   position: relative;
-  top:-620px;
+  top:-460px;
   left:596px;
+  display: none;
 }
 
-/*russia killers*/
+/*Russia killer*/
 
 .chikatilo
 {
   position: relative;
-  top:-680px;
+  top:-490px;
   left:696px;
+  display: none;
 }
 
 
-/*china killers*/
+/*China killer*/
 
 .yang
 {
   position: relative;
-  top:-660px;
+  top:-380px;
   left:930px;
+  display: none;
 }
 
-/*aussie killers*/
+/*Aussie killer*/
 .cooke
 {
   position: relative;
-  top:-400px;
+  top:-160px;
   left:960px;
+  display: none;
 }
+
+/*Japan killer*/
 
 .miyazaki
 {
   position: relative;
-  top:-680px;
+  top:-410px;
   left:1030px;
+  display: none;
 }
+
+/*Brizil killer*/
 
 .filho
 {
   position: relative;
-  top:-470px;
+  top:-200px;
   left:390px;
+  display: none;
 }
+
+
 
 
 

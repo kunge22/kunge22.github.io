@@ -23,13 +23,13 @@ body.evenS.pm .sunset {
 
 
 
-body.evenS {
-  background: peachpuff;
+body.evenM {
+  background:  rgb(0, 154, 29);
 
 }
 
-body.oddS {
-  background: white;
+body.oddM {
+  background: rgb(0, 108, 34);
 
 }
 
@@ -41,6 +41,6 @@ body.oddS .time{
   color:rgb(255, 237, 0);
 }
 
-body.h5.quarterH.pm .happy{
+body.h5 .happy{
   display: block;
 }

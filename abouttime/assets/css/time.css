@@ -22,16 +22,60 @@ body.evenS.pm .sunset {
 /* Time CSS here */
 
 
-.time{
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 100;
-  color: white;
+
+
+body.h12 .zodiac{
+display: block;
+}
+
+body.h1 .gaskins{
+display: block;
+}
+
+body.h2 .cooke{
+display: block;
+}
+
+body.h3 .miyazaki{
+display: block;
+}
+
+body.h4 .filho{
+display: block;
+}
+
+body.h5 .jack{
+display:block;
+}
+
+body.h6 .haarmann{
+display: block;
+}
+
+body.h7 .chikatilo{
+display: block;
+}
+
+body.h8 .dahmer{
+display: block;
+}
+
+body.h9 .yang{
+display: block;
+}
+
+body.h10 .wuornos{
+display: block;
+}
+
+body.h11 .lucas{
+display: block;
 }
 
 
 
-body.evenS .time{
 
-}
+
+
+
+/*Time css end*/

@@ -12,6 +12,11 @@
   text-transform: uppercase;
   font-family: arial;
   margin-bottom: 80px;
+  color: red;
+}
+
+.hour{
+  color: red;
 }
 
 .image_swap {

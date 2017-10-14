@@ -10,3 +10,15 @@ body
 {
   background-color:black;
 }
+
+
+.time
+{
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 100;
+  color: red;
+  font-family: monospace;
+  font-size: 22px;
+}
