@@ -15,11 +15,9 @@
 { display: flex;
   align-items: center;
   align-content: center;
-  font-family: century gothic;
+  font-family: Oswald, sans-serif;
   font-size: 10px;
-  font-weight: bold;
-  align-items: center;
-  color: red;
+  color:rgb(251, 0, 16);
 }
 
 
@@ -56,29 +54,29 @@
 .dahmer
 {
   position: relative;
-  top:-470px;
+  top:-480px;
   left:240px;
 }
 
 .gaskins
 {
   position: relative;
-  top:-480px;
+  top:-470px;
   left:290px;
 }
 
 .wuornos
 {
   position: relative;
-  top:-485px;
+  top:-465px;
   left:293px;
 }
 
 .lucas
 {
   position: relative;
-  top:-530px;
-  left:150px;
+  top:-490px;
+  left:120px;
 }
 
 /*Euro killers*/
@@ -86,14 +84,14 @@
 .jack
 {
   position: relative;
-  top:-640px;
+  top:-600px;
   left:475px;
 }
 
 .haarmann
 {
   position: relative;
-  top:-665px;
+  top:-620px;
   left:596px;
 }
 
@@ -102,7 +100,7 @@
 .chikatilo
 {
   position: relative;
-  top:-720px;
+  top:-680px;
   left:696px;
 }
 
@@ -120,21 +118,21 @@
 .cooke
 {
   position: relative;
-  top:-470px;
+  top:-400px;
   left:960px;
 }
 
 .miyazaki
 {
   position: relative;
-  top:-760px;
+  top:-680px;
   left:1030px;
 }
 
 .filho
 {
   position: relative;
-  top:-570px;
+  top:-470px;
   left:390px;
 }
 
