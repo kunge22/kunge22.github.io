@@ -24,7 +24,20 @@ body
 }
 
 
+/*Title*/
 
+.pagetitle img
+{
+  max-width: 40%;
+  z-index: -1;
+}
+
+.pagetitle
+{
+  position: fixed;
+  bottom: 15px;
+  left:25px;
+}
 
 /* killer page css */
 
