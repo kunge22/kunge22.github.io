@@ -13,12 +13,12 @@
 
 .reddot
 { display: flex;
-
+  flex-wrap: wrap;
   align-items: center;
   align-content: center;
   font-family: Oswald, sans-serif;
   font-size: 15px;
-
+  text-transform: uppercase;
   color:rgb(251, 0, 16);
 }
 
@@ -108,8 +108,8 @@
 .lucas
 {
   position: relative;
-  top:-390px;
-  left:120px;
+  top:-405px;
+  left:195px;
   display: none;
 }
 
@@ -125,7 +125,7 @@
   display: none;
   position: relative;
   top:-470px;
-  left:495px;
+  left:560px;
 }
 .jack :hover
 {
@@ -176,7 +176,7 @@
 {
   position: relative;
   top:-160px;
-  left:960px;
+  left:965px;
   display: none;
 }
 .cooke :hover

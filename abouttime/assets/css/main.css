@@ -61,6 +61,8 @@ body
 
 .button
 {
+  max-width: 25px;
+  margin: 0;
   position: relative;
   top: 1px;
   left:10px;
