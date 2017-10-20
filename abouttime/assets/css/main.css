@@ -26,13 +26,13 @@ body
 
 /*Title*/
 
-.pagetitle img
+.execution img
 {
   max-width: 40%;
-  z-index: -1;
+  z-index:-1;
 }
 
-.pagetitle
+.execution
 {
   position: fixed;
   bottom: 15px;
@@ -107,7 +107,7 @@ flex: 0 0 35%;
   margin-bottom: 30px;
 }
 
-p
+.end
 {
   margin-bottom: 150px;
 }
@@ -116,7 +116,7 @@ p
 .title12
 {
   font-family: Oswald, sans-serif;
-  font-size: 55px;
+  font-size: 52px;
   text-align: center;
   flex: 0 0 35%;
   margin:5px;
@@ -130,18 +130,18 @@ p
 .title1
 {
   font-family: Oswald, sans-serif;
-  font-size: 66px;
+  font-size: 55px;
   text-align: center;
   flex: 0 0 40%;
   margin:5px;
-  line-height: 53px;
+  line-height: 60px;
 }
 
 /*3lineslong*/
 .title11
 {
   font-family: Oswald, sans-serif;
-  font-size: 49px;
+  font-size: 45px;
   text-align: center;
   flex: 0 0 40%;
   margin:5px;
