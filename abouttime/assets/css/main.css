@@ -52,6 +52,7 @@ body
   top:4vh;
   left:32.5vw;
   border-radius: 10px;
+  z-index: 10;
 }
 
 .button img
@@ -97,12 +98,18 @@ flex: 0 0 35%;
 .text
 {
   width: auto;
-  height: 500px;
+  height: 47vh;
   font-family: monospace;
   font-size: 15px;
-  margin-top: 15px;
+  margin-top: 8px;
   flex:0 0 90%;
   overflow: scroll;
+  margin-bottom: 30px;
+}
+
+p
+{
+  margin-bottom: 150px;
 }
 
 /*3lines*/
@@ -113,6 +120,7 @@ flex: 0 0 35%;
   text-align: center;
   flex: 0 0 35%;
   margin:5px;
+  line-height: 53px;
 }
 
 
@@ -126,6 +134,7 @@ flex: 0 0 35%;
   text-align: center;
   flex: 0 0 40%;
   margin:5px;
+  line-height: 53px;
 }
 
 /*3lineslong*/
@@ -136,6 +145,7 @@ flex: 0 0 35%;
   text-align: center;
   flex: 0 0 40%;
   margin:5px;
+  line-height: 53px;
 }
 /*killer page css end*/
 
@@ -145,12 +155,16 @@ flex: 0 0 35%;
 
 .show
 {
-  display: block;
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 2s;
 }
 
 .hide
 {
-  display: none
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 2s;
 }
 
 

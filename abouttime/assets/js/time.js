@@ -6,6 +6,15 @@ $(document).ready(function() {
   var halfSecond = ' ';
   var halfMinute = ' ';
 
+  function playAudio() {
+    $("#alarm")[0].play();
+    setTimeout(stopAudio, 109000);
+  }
+
+  function stopAudio() {
+    $("#alarm")[0].pause();
+  }
+
 // Update time
   function update() {
     var quarter = moment().quarter();
@@ -20,6 +29,7 @@ $(document).ready(function() {
     function oddOrEvenS(momentSecond){
       if(momentSecond % 2 === 0) {oddSecond = 'oddS';}
       else {oddSecond = 'evenS';}
+
     }
 
     function oddOrEvenM(momentMinute){
@@ -33,10 +43,12 @@ $(document).ready(function() {
     }
 
     function checkHalfMinute(momentMinute){
-      if(momentMinute < 15) {halfMinute = 'quarterH';}
+      if(momentMinute < 15) {halfMinute = 'quarterH'; }
       else if(momentMinute < 30){halfMinute = 'halfH';}
       else if(momentMinute < 45){halfMinute = 'threequarterH';}
-      else {halfMinute = 'fullH';}
+      else {halfMinute = 'fullH';
+      playAudio();
+    }
     }
 
     // Check if odd, even, quaterpast
@@ -52,7 +64,7 @@ $(document).ready(function() {
     $('body').attr('class', timeClass);
 
     // Add format
-    $('.time').html(moment().format('hh:mm:ss A'));
+    $('.time').html(moment().format('h:mm:ss A'));
   };
 
   var intervalId = setInterval(update, 100);
